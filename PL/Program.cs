@@ -6,17 +6,56 @@ using System.Threading.Tasks;
 
 namespace PL
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Bienvenido a mi Calculadora");
-            Console.WriteLine(" 1. Suma");
-            Console.WriteLine(" 2. Resta");
-            Console.WriteLine(" 3. Division");
-            Console.WriteLine(" 4. Multiplicación");
-            Console.WriteLine(" Seleccione una opción: ");
-            int respuesta = int.Parse(Console.ReadLine());
+            int respuesta = 0;
+
+            do
+            {
+                Console.WriteLine("Calculadora Basica");
+                Console.WriteLine("1. Suma");
+                Console.WriteLine("2. Resta");
+                Console.WriteLine("3. Multiplicación");
+                Console.WriteLine("4. División");
+                Console.WriteLine("5. Salir");
+                Console.WriteLine("¿Que opción desea?");
+                respuesta = int.Parse(Console.ReadLine());
+
+                Console.WriteLine("Ingrese el primer numero");
+                double Numero1 = double.Parse(Console.ReadLine());
+
+                Console.WriteLine("Ingrese el segundo numero");
+                double Numero2 = double.Parse(Console.ReadLine());
+
+
+                switch (respuesta)
+                {
+                    case 1:
+                        break;
+
+                    case 2:
+                        break;
+
+                    case 3:
+                        break;
+
+                    case 4:
+                        break;
+
+                    case 5:
+                        Console.WriteLine("Gracias");
+                        break;
+
+                    default:
+                        Console.WriteLine("Opcion no valida");
+                        break;
+                }
+
+                Console.ReadKey();
+            } while (respuesta != 5);
+
 
         }
     }
