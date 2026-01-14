@@ -29,6 +29,7 @@ namespace PL
                 Console.WriteLine("Ingrese el segundo numero");
                 double Numero2 = double.Parse(Console.ReadLine());
 
+                double resultado = 0;
 
                 switch (respuesta)
                 {
@@ -39,6 +40,8 @@ namespace PL
                         break;
 
                     case 3:
+                        resultado = Numero1 * Numero2;
+                        Console.WriteLine("El resultado es: " + resultado);
                         break;
 
                     case 4:
