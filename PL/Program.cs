@@ -41,7 +41,7 @@ namespace PL
                     case 2:
                         resultado = Numero1 - Numero2;
                         Console.WriteLine("El resultado es: " + resultado);
-                        break;
+                        break; 
 
                     case 3:
                         break;
