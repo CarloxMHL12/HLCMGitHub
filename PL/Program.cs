@@ -46,7 +46,7 @@ namespace PL
                     case 3:
                         resultado = Numero1 * Numero2;
                         Console.WriteLine("El resultado es: " + resultado);
-                        break;
+                        break; 
 
                     case 4:
                         break;
