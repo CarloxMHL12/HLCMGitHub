@@ -39,6 +39,8 @@ namespace PL
                         break;
 
                     case 2:
+                        resultado = Numero1 - Numero2;
+                        Console.WriteLine("El resultado es: " + resultado);
                         break;
 
                     case 3:
