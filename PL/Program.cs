@@ -51,7 +51,7 @@ namespace PL
                     case 4:
                         resultado = Numero1 / Numero2;
                         Console.WriteLine("El resultado es: " + resultado);
-                        break;
+                        break; 
 
                     case 5:
                         Console.WriteLine("Gracias");
