@@ -10,6 +10,14 @@ namespace PL
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Bienvenido a mi Calculadora");
+            Console.WriteLine(" 1. Suma");
+            Console.WriteLine(" 2. Resta");
+            Console.WriteLine(" 3. Division");
+            Console.WriteLine(" 4. Multiplicación");
+            Console.WriteLine(" Seleccione una opción: ");
+            int respuesta = int.Parse(Console.ReadLine());
+
         }
     }
 }
